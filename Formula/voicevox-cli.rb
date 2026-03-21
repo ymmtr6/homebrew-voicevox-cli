@@ -1,8 +1,8 @@
 class VoicevoxCli < Formula
   desc "CLI tool to control local VoiceVox engine (TTS) from terminal and Claude Code"
   homepage "https://github.com/ymmtr6/voicevox-cli"
-  url "https://github.com/ymmtr6/voicevox-cli/archive/refs/tags/v1.0.10.tar.gz"
-  sha256 "b906cd71541f739cd59bfdc020624601bcc7aea28ea47df48873784b37c617d4"
+  url "https://github.com/ymmtr6/voicevox-cli/archive/refs/tags/v1.0.11.tar.gz"
+  sha256 "0ecd77a7f0936e1a4390788d45488cb834ab8b8307579ec6dd5b7a3b40ed4d0a"
 
   depends_on "node"
 
