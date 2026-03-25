@@ -10,7 +10,7 @@ class VoicevoxCli < Formula
     system "npm", "install", *std_npm_args(prefix: false)
     system "npm", "run", "build"
 
-    libexec.install "dist", "node_modules", "package.json"
+    libexec.install "dist", "node_modules", "package.json", "skills"
 
     (bin/"voicevox-cli").write <<~SH
       #!/bin/bash
